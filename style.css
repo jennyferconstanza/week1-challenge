@@ -32,15 +32,12 @@ nav {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
 /*consildated nav ul*/
 nav ul {
     list-style-type: none;
 }
-
 /*consildated nav ul li*/
-nav ul li {
-    
+nav ul li {   
     display: inline-block;
     margin-left: 25px;
 }
