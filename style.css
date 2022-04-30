@@ -1,26 +1,30 @@
+/*beginning of "universal" styling*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/*end of "universal" styling*/
+/*beginning of "body" styling*/
 body {
     background-color: #d9dcd6;
 }
-
-/* edited to correspond to <header> in HTML*/
+/*end of "body" styling*/
+/*beginning of "header" styling- edited to correspond to <header> in HTML*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/*end of "header" styling*/
+/*beginning of "header1" styling*/
 h1 {
     display: inline-block;
     font-size: 40px;
 }
-/* edited to correspond to <nav> in HTML */
+/*end of "header1" styling*/
+/*beginning of "navigationg styling - edited to correspond to <nav> in HTML */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -29,27 +33,30 @@ nav {
     font-size: 20px;
 }
 
-/* consildated nav ul*/
+/*consildated nav ul*/
 nav ul {
     list-style-type: none;
 }
 
-/* consildated nav ul li*/
+/*consildated nav ul li*/
 nav ul li {
     
     display: inline-block;
     margin-left: 25px;
 }
-
+/*end of "navigation" styling*/
+/*beginning of "anchor" styling*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/*end of "anchor" styling*/
+/*beginning of "paragraph" styling*/
 p {
     font-size: 16px;
 }
-/* edited to correspond to <section> in HTML*/
+/*end of "paragraph" styling*/
+/*beginnng of "section" styling - edited to correspond to <section> in HTML*/
 section {
     height: 800px;
     width: 100%;
@@ -58,7 +65,8 @@ section {
     background-size: cover;
     background-position: center;
 }
-/*edited to correspond to <aside> in HTML */
+/*end of "section" styling*/
+/*beginning of "aside" styling - edited to correspond to <aside> in HTML */
 aside {
     padding: 20px;
     clear: both;
@@ -68,28 +76,26 @@ aside {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
-/* consildated .seo class*/
+/*end of "aside" styling*/
+/*beginning of "header" class styling - consildated .seo class*/
 .seo {
     color: #d9dcd6;
 }
-
+/*end of "header" class styling*/
+/*beginning of "article" class styling */
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
 /* consolidated .search-engine-optimization, .online-reputation-management, .social-media-marketing classes */
 .search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
@@ -99,38 +105,34 @@ aside {
     background-color: #0072bb;
     color: #ffffff;
 }
-
 /* consolidated .search-engine-optimization img, .online-reputation-management img, and .social-media-marketing img classes */
 .search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
     max-height: 200px;
 }
-
 /* consolidated .search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2  classes */
 .search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
-/* consolidated .benefit-lead, .benefit-brand, .benefit-cost */
+/*end of "article" class styling */
+/*beginning of "aside" class styling - consolidated .benefit-lead, .benefit-brand, .benefit-cost */
 .benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
-
 /* consolidated .benefit-lead h3, .benefit-brand h3, .benefit-cost h3*/
 .benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
 /* consolidated .benefit-lead  img, .benefit-brand img, .benefit-cost img */
 .benefit-lead  img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/*end of "aside" class styling*/
+/*beginning of "footer" class styling */
 .footer {
     padding: 30px;
     clear: both;
@@ -141,3 +143,4 @@ aside {
 .footer h2 {
     font-size: 20px;
 }
+/*end of "footer" class styling */
